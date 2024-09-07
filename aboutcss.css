@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.maindiv {
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(255, 123, 0); 
+}
+.contentdiv {
+    width: 50%; 
+    max-width: 800px; 
+    padding: 10px; 
+    background-color: white; 
+    border: 1px solid #000; 
+    border-radius: 20px;
+}
+.btn {
+    display: inline-block;        
+    padding: 10px 20px;             
+    font-size: 16px;                 
+    color: rgb(0, 0, 0);                   
+    background-color: #007bff00;       
+    border: 1px solid #000;                     
+    border-radius: 10px;             
+    text-decoration: none;           
+    text-align: center;             
+    cursor: pointer;                 
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: rgb(255, 255, 255)   
+}
+
